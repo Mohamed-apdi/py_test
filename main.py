@@ -4,8 +4,15 @@ def add(addend1, addend2):
     return addend1 + addend2
 print(add(1, 2))
 
-# git add .  add all change
-# git commit -m "add main.py"  commit change
-# git push origin dowsa  push change to github
+# Important Git commands:
+
+# Stage all changes in the current directory for the next commit
+# git add .
+
+# Commit the staged changes with a message
+# git commit -m "add main.py"
+
+# Push the committed changes to the remote repository on the branch 'dowsa'
+# git push origin dowsa
 
 
